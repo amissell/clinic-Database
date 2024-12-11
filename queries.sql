@@ -199,7 +199,7 @@ GROUP BY gender
 HAVING COUNT(*) >= 2;
 
 -- 20    --
-/*CREATE VIEW example as
+/CREATE VIEW example as
 SELECT * FROM admissionnew
-WHERE dischargeDate is null OR dischargeDate > curdate();*/
+WHERE dischargeDate is null OR dischargeDate > curdate();
 SELECT *FROM example
