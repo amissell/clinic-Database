@@ -80,5 +80,6 @@ CREATE TABLE staff (
     email VARCHAR(30) NOT NULL,
     jobTitle VARCHAR(200) NOT NULL,
     departmentId INT,  
-    FOREIGN KEY (departmentId) REFERENCES departments(departmentsId)
+    FOREIGN KEY (de
+    partmentId) REFERENCES departments(departmentsId)
 );
